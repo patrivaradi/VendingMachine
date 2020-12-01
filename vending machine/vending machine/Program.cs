@@ -62,7 +62,7 @@ namespace vending_machine
                 Console.WriteLine("Would you like another coffee? (0=no/1=yes)");
                 repeat = int.Parse(Console.ReadLine());                
             } while (repeat==1);
-
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("Goodbye!");
             Console.ReadKey();
         }
